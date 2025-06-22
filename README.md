@@ -21,50 +21,54 @@ A modern and beautiful coffee shop website built with Vite, React, and Tailwind 
 
 ## 📁 Project Structure
 
-\`\`\`
-coffee-shop-vite/
-├── public/
-│   ├── images/           # Coffee shop images
-│   └── vite.svg
-├── src/
-│   ├── components/       # Reusable components
-│   │   ├── CartContext.jsx
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Cart.jsx
-│   │   ├── ProductSlider.jsx
-│   │   └── StickyOrderIcon.jsx
-│   ├── pages/           # Page components
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Order.jsx
-│   │   ├── Categories.jsx
-│   │   ├── Registration.jsx
-│   │   └── Login.jsx
-│   ├── App.jsx         # Main app component
-│   ├── main.jsx        # App entry point
-│   └── index.css       # Global styles
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── postcss.config.js
-\`\`\`
+```
+
+  coffee-shop-vite/
+  ├── public/
+  │   ├── images/           # Coffee shop images
+  │   └── vite.svg
+  ├── src/
+  │   ├── components/       # Reusable components
+  │   │   ├── CartContext.jsx
+  │   │   ├── Header.jsx
+  │   │   ├── Footer.jsx
+  │   │   ├── Cart.jsx
+  │   │   ├── ProductSlider.jsx
+  │   │   └── StickyOrderIcon.jsx
+  │   ├── pages/           # Page components
+  │   │   ├── Home.jsx
+  │   │   ├── About.jsx
+  │   │   ├── Contact.jsx
+  │   │   ├── Order.jsx
+  │   │   ├── Categories.jsx
+  │   │   ├── Registration.jsx
+  │   │   └── Login.jsx
+  │   ├── App.jsx         # Main app component
+  │   ├── main.jsx        # App entry point
+  │   └── index.css       # Global styles
+  ├── package.json
+  ├── vite.config.js
+  ├── tailwind.config.js
+  └── postcss.config.js
+
+```
 
 ## 🛠️ Installation & Setup
 
 ### 1. Create New Vite Project
-\`\`\`bash
-npm create vite@latest coffee-shop-vite -- --template react
-cd coffee-shop-vite
-\`\`\`
+```bash
+  npm create vite@latest coffee-shop-vite -- --template react
+  cd coffee-shop-vite
+```
 
 ### 2. Install Dependencies
-\`\`\`bash
+```bash
+
 npm install react-router-dom lucide-react
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-\`\`\`
+
+```
 
 ### 3. Replace Files
 - Copy all the provided files into your project
@@ -81,15 +85,15 @@ Add these images to `public/images/`:
 - `black-coffee.png` - Black coffee section image
 
 ### 5. Run Development Server
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### 6. Build for Production
-\`\`\`bash
+```bash
 npm run build
 npm run preview
-\`\`\`
+```
 
 ## 📱 Pages
 
